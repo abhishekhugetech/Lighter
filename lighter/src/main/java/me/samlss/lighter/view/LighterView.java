@@ -55,7 +55,7 @@ public class LighterView extends FrameLayout {
     }
 
     private void init(){
-        setLayerType(LAYER_TYPE_HARDWARE, null);
+        setLayerType(LAYER_TYPE_NONE, null);
         setWillNotDraw(false);
     }
 
